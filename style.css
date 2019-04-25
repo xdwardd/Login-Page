@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand") ;
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #181818;
+	font-family: 'Quicksand', sans-serif;
+	color: #fff;
+	line-height: 1.9rem;
+	overflow: hidden;
+}
+
+
+.container{
+	display: flex;
+	flex-direction: row;
+
+}
+
+#left{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
+#signin{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1rem;
+}
+#signin .ml-logo{
+	margin-top: 6vh;
+}
+
+#signin form{
+	width: 80%;
+	padding-bottom: 2.5rem;
+}
+#signin label{
+	font-size: 0.9rem;
+	font-weight: 300;
+}
+#signin .text-input{
+	display: block;
+	width: 100%;
+	background: #181818;
+	border: 1px solid #555;
+	border-radius: 2px;
+	height: 1.8rem;
+	color: #fff;
+	padding: 0.7rem 1rem;
+	font-weight: 300;
+	margin-bottom: 1rem;
+}
+#signin .secondary-btn, .or, .line{
+	width: 60%;
+	margin:auto;
+}
+#signin .primary-btn{
+	width: 100%;
+}
+
+.primary-btn{
+	display: block;
+	height: 2.5rem;
+	background: #1e90ff;
+	color: #fff;
+	border:none;
+	font-size: 1rem;
+	border-radius: 2px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.primary-btn:hover{
+	background: #87ceeb;
+}
+
+#signin .links a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	margin-bottom: 2vh;
+
+}
+#signin .links a:hover{
+	color: #1e90ff;
+}
+
+#signin .or{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 2vh;
+}
+#signin .or .line{
+	flex: auto;
+	color: red;
+
+}
+#signin .or span{
+	padding: 0 0.8rem;
+}
+
+.secondary-btn{
+	display: block;
+	height: 2rem;
+	background: #1e90ff;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	border:1px solid #ccc;
+	font-size: 1rem;
+	border-radius: 2px;
+	cursor: pointer;
+	transition: all 0.5s;
+
+}
+
+.secondary-btn:hover{
+	background: #87ceeb;
+}
+
+.main-footer {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+.main-footer p{
+	font-size: 0.9rem;
+	margin-top: 2vh;
+	
+}
+.main-footer a{
+	font-size: 0.8rem;
+	color: #1e90ff;
+	
+}
+
+
+#right{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+
+}
+#letsplay{
+	display: flex;
+	flex-direction: column;
+	background-image: url(./img/mobileLegend.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
+#letsplay .play-text{
+	font-size: 2.5rem;
+	width: 100%;
+	margin-bottom: 3rem;
+}
+
+#letsplay .secondary-btn{
+	
+	width: 50%;
+
+}	
+#letsplay .secondary-btn:hover{
+ 	background: 
+}
+@media(min-width: 1200px){
+	#left{
+		flex: 4;
+	}
+
+	#right{
+		flex: 6;
+	}
+}
+
+@media (max-width: 760px){
+	#right{
+		display: none;
+	}
+}
+
