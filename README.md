@@ -2,4 +2,4 @@
 
 Simple Login Page design using flexbox,
 
-credit for the tuturial: Traversy Media
+credit for the tutorial: Traversy Media
